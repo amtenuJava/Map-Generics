@@ -24,7 +24,7 @@ abstract class Point implements Mappable{
 
     @Override
     public void render() {
-        System.out.println("Render " + this + "as point (" + location() + ")");
+        System.out.println("Render " + this + "as POINT (" + location() + ")");
     }
 
     private String location(){
@@ -48,7 +48,7 @@ abstract  class Line implements Mappable{
 
     @Override
     public void render() {
-        System.out.println("Render " + this + "as line (" + location() + ")");
+        System.out.println("Render " + this + " as LINE (" + location() + ")");
     }
 
     private String location(){
